@@ -1,0 +1,14 @@
+base
+methods
+datasets
+utils
+grDevices
+graphics
+stats
+httr
+jsonlite
+tibble
+tidyr
+parallel
+purrr
+dplyr

@@ -1,0 +1,45 @@
+# Optimierungspotenziale {#optim}
+
+Das Gewicht der Eisenkernläufer führt aufgrund der erhöhten Trägheit des Systems zu höheren Energiekosten. Im Gegensatz dazu wurden eisenlose Linearmotoren entwickelt, um diese höhere Trägheitsbelastung zu überwinden, indem leichtere Materialien in der Läufer verwendet werden. Bei letzterer Konstruktion sind die Spulen der Läufer in Epoxidharz gegossen. Dies hat einige offensichtliche Vorteile in Bezug auf das Gewicht des Läufer, was zu einer höheren Beschleunigung/Verzögerung von Bewegungen führt. Dennoch haben eisenlose Linearmotoren einige Einschränkungen im Vergleich zur eisenbehafteten Variante, was hauptsächlich zu höheren Nennkräften für ähnlich große eisenlose Varianten führt. Um ähnliche Spezifikationen zu erreichen, müssen einige Einschränkungen des eisenlosen Linearmotors überwunden werden. Diese Einschränkungen lassen sich grob in drei Gruppen einteilen:
+
+<!-- The weight of ironcore forcers results in a greater cost of energy due to the elevated inertia of the system. By contrast, ironless linear motors have been designed to overcome this higher inertial burden by using lighter weight materials in the forcer. In the latter construction the coils of the forcer are cast in an epoxy resign. This has some obvious benefits in terms of the weight the forcer, resulting in higher acceleration and deceleration of movements. Nonetheless ironless linear motors have some limitations when compared to the ironcore variant, which mainly results in higher force ratings for similar sized ironless variants. In order to achieve similar specifications some limitations of the ironless linear motor have to be overcome. These limitations can be roughly divided into three groups:  -->
+
+**Materialien** Die Epoxidharz-Läufer von eisenlosen Linearmotoren haben eine geringere Wärmeleitfähigkeit und Struktursteifigkeit als die Variante mit Eisenkern. Dies kann überwunden werden durch:
+
+- Entwicklung besser wärmeleitfähiger Epoxidharze. Dies kann möglicher- weise durch die Verwendung von Nanopartikeleinschlüssen erreicht werden, die in das Epoxidharz eingebettet sind [@fu2010].
+- Verbesserung der strukturellen Steifheit des Epoxidharzes. Kunststoffe mit einer hohen strukturellen Steifigkeit sind ein Forschungsschwerpunkt in prothetischen Studien [@agha2016]. Diese Fortschritte in der Prothetik könnten möglicherweise in eisenlose Läufer-Designs implementiert werden.
+- Verringerung des Gewichts der Spule durch Verwendung von (Hochtem- peratur-)supraleitenden Spulen mit geringerem Energieverbrauch [@palka2021]. Noch spekulativer ist die Umsetzung von noch weitgehend theoretischen Supraleitern wie „Magic-Winkel-Graphen“ [@cao2018].
+
+<!-- **Materials**     -->
+<!-- The epoxy resin forcers of ironless linear motors have lower thermal conductivity and structural stiffness as the ironcore variant. This can be overcome by: -->
+
+<!-- - developing more thermally conductive epoxy resins. This can potentially be achieved by using nanoparticles inclusions embedded in the epoxy resin [@fu2010].  -->
+<!-- - improving the structural stiffness of the epoxy resin. Resin with a high structural stiffness are a focal field of research in prosthodontics studies. These advances within prosthodontics could potentially be implemented in ironless forcer design. -->
+<!-- - reducing the weight of the coil by using (high temperature) superconducting coils with lower energy consumption [@palka2021]. Even more speculative is the implementation of still largely theoretical superconductors such as "magic-angle graphene" [@cao2018].     -->
+
+**Designoptimierung** Das Y-Träger-Design ist ein Beispiel für eine geometrische Konfiguration, die den Wirkungsgrad von eisenlosen Linearmotoren verbessert. Aufbauend auf diesen Fortschritten bei der Gestaltung der Streitkräfte kann man:
+
+- weitere Verbesserung der Motorgeometrie und anderer Konstruktions- parameter durch topologische und magnetische Flussmodelle [z. B. @duan2011].
+- Präzisionsfertigungsverfahren (z. B. Laser-Metallschneiden) anwenden, um Konstruktionsverbesserungen mit minimalen Abweichungen tatsächlich zu implementieren. Die Minimierung von Produktionsfehlern wird die Effizienz dieser Systeme in realen Anwendungen erhöhen.
+
+<!-- **Design optimization** The Y-beam design is an example of a geometric configuration that improved the efficiency of ironless linear motors. Building on this progresses in forcer design one can:  -->
+
+<!-- - further improvement motor geometry and other design parameters by state-of-the-art topological and magnetic flux models [e.g., duan2011]. -->
+<!-- - adopt precision manufacturing processes (such as laser metal cutting) to actually implement design improvements with minimal amounts of variation. Minimization of production errors will increase the efficiency of these systems in real-world applications.     -->
+
+**Adaptive Algorithmen** Berechnungsroutinen für die Bewegungsverfolgung und korrigierendes Feedback werden dazu beitragen, die Wechselwirkung des magnetischen Flusses und andere parasitäre Kräfte zu überwinden, die die Leistung der Maschine negativ beeinflussen [@nguyen2016]. Solche Algorithmen können profitieren von:
+
+- erhöhte Rechenleistung, die der Bewegungsgeschwindigkeit im mechan- ischen System entspricht. Dies kommt der Gesamtleistung zugute.
+- Implementieren von "self-supervised machine learning" Algorithmen, die iterativ die beste Routine für bestimmte Bewegungen innerhalb eines bestimmten Systems lernen können.
+
+Verbesserungen in all diesen Kategorien können die Leistung des Systems verbessern, ohne dass größere und schwerere Läufer erforderlich sind. Umgekehrt ergeben sich dadurch auch Möglichkeiten, die Größe und das Gewicht von Linearmotoren weiter zu reduzieren. Dies wäre vorteilhaft für Hochpräzisionsanwendungen wie biomedizinische Geräte, chirurgische Werkzeuge und High-End-Optiken, die eine räumliche Präzision im Nano- bis Mikrobereich mit einer sehr konsistenten Geschwindigkeitssteuerung der Bewegung erfordern.
+
+<!-- **Adaptive algorithms** Computational routines for movement tracking and corrective feedback will help overcome magnetic flux interaction and other parasitic forces that negatively influence the machine's performance [@nguyen2016]. Such algorithms can benefit from: -->
+
+<!-- - increased computational power that matches the speed of movement in the mechanical system. This will benefit the overall performance.  -->
+<!-- - implementing self-supervised machine algorithms that can iteratively learn the best routine for certain movements within a specific system. -->
+
+<!-- Improvements in all of these categories can improve the system's performance without the need of larger and heavier forcers. Reversely, this also creates opportunities to further reduce the size and weight of linear motors. This would be beneficial for the high precision applications, such as, biomedical devices, surgical tools and high-end optics, that require nano- to micro-scale spatial precision with a very consistent velocity control of movement.  -->
+
+
+

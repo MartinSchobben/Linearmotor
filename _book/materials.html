@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="de" xml:lang="de">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 5 Materials | Case Study “Linearmotor”</title>
+  <meta name="description" content="Chapter 5 Materials | Case Study “Linearmotor”" />
+  <meta name="generator" content="bookdown 0.29 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 5 Materials | Case Study “Linearmotor”" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 5 Materials | Case Study “Linearmotor”" />
+  
+  
+  
+
+<meta name="author" content="Martin Schobben" />
+
+
+<meta name="date" content="2022-09-20" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="consortium.html"/>
+<link rel="next" href="zeitplan.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">A Minimal Book Example</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="aktuellen-stand-der-wissenschaft-und-technik.html"><a href="aktuellen-stand-der-wissenschaft-und-technik.html"><i class="fa fa-check"></i><b>1</b> Aktuellen Stand der Wissenschaft und Technik</a></li>
+<li class="chapter" data-level="2" data-path="markt.html"><a href="markt.html"><i class="fa fa-check"></i><b>2</b> Markt</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="markt.html"><a href="markt.html#general-importance-of-linear-motor-industry"><i class="fa fa-check"></i><b>2.1</b> General importance of linear motor industry</a></li>
+<li class="chapter" data-level="2.2" data-path="markt.html"><a href="markt.html#application-of-linear-motors"><i class="fa fa-check"></i><b>2.2</b> Application of linear motors</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="optimierungspotentiale.html"><a href="optimierungspotentiale.html"><i class="fa fa-check"></i><b>3</b> Optimierungspotentiale</a></li>
+<li class="chapter" data-level="4" data-path="consortium.html"><a href="consortium.html"><i class="fa fa-check"></i><b>4</b> Consortium</a></li>
+<li class="chapter" data-level="5" data-path="materials.html"><a href="materials.html"><i class="fa fa-check"></i><b>5</b> Materials</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="materials.html"><a href="materials.html#optimising-ironless-linear-motor-design"><i class="fa fa-check"></i><b>5.1</b> Optimising ironless linear motor design</a></li>
+<li class="chapter" data-level="5.2" data-path="materials.html"><a href="materials.html#testing-and-production"><i class="fa fa-check"></i><b>5.2</b> Testing and Production</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="zeitplan.html"><a href="zeitplan.html"><i class="fa fa-check"></i><b>6</b> Zeitplan</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Case Study “Linearmotor”</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="materials" class="section level1 hasAnchor" number="5">
+<h1><span class="header-section-number">Chapter 5</span> Materials<a href="materials.html#materials" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>Researching material with greater heat conductivity and stiffnes for the forcer appear to be a critical aspect that could advance ironless linear motor optimization.</p>
+<ul>
+<li><a href="https://www.ipfdd.de/en/research/institute-of-macromolecular-chemistry/functional-nanocomposites-and-blends/fields-of-research/composites-containing-carbon-nano-structures/">Leibniz-Institut für Polymerforschung</a>, Dresden: This insittute has a rsearch group especially decicated to researching the effect of carbon nanostructure inclusion in polymeres on thermal properties. These facilities would be excellentely suited to develop ironless forcers with better heat conducting properties.</li>
+</ul>
+<div id="optimising-ironless-linear-motor-design" class="section level2 hasAnchor" number="5.1">
+<h2><span class="header-section-number">5.1</span> Optimising ironless linear motor design<a href="materials.html#optimising-ironless-linear-motor-design" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The proposed consortium will combine state-of-the-art artificial neural networks to optimize design parameters before actual production starts. Artificial neural networks have been proven particularly useful to model non-linear systems and have been successfully applied to topology optimization and heat conduction system design problems.</p>
+<ul>
+<li><p>Fraunhofer-Institut für Intelligente Analyse- und Informationssysteme <a href="https://www.iais.fraunhofer.de/">IAIS</a>, Dresden: Has a long history of researching intelligent digital solution and also applying their knowledge to real world problems. In addition, they already have an extensive network that contains educational institutes, start-ups and cooperations, which could supplement the consortium.</p></li>
+<li><p><a href="https://www.celus.io/">Celus</a>, München: Is an AI-powered start-up that focusses on electronics engineering processes, including: smart solution for material selection and digital twins of electronic components. There experience could help facilitate the design phase but also construct adaptive feedback algorithms that help regulate movement and compensate for unwanted disruptive forces (e.g. parasitic magnetic forces).</p></li>
+</ul>
+</div>
+<div id="testing-and-production" class="section level2 hasAnchor" number="5.2">
+<h2><span class="header-section-number">5.2</span> Testing and Production<a href="materials.html#testing-and-production" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>After the design phase it is important to have a production line for these newly designed linear motors that can deliver the same level of accuracy as used in the virtual designs. These encompasses micro-tooling and critical quality checks along the production line. This allows real life testing of the devices in laboratory experimental set-ups and trial experiments to test the user’s satisfaction with the devices.</p>
+<ul>
+<li><p><a href="https://www.faulhaber.com/en/markets/medical/exoskeletons-prosthetics/">Faulhaber Gruppe</a>, Schönaich: Is a manufacturer of high-tech miniature and micro motors, among which linear motors, and they actively research solutions for the prosthetics and exoskeleton market. The decades of experience and the level of accuracy of production will realise the design goals as set-out in the previous step.</p></li>
+<li><p><a href="https://www.ottobock.com/de-de/startseite">Ottobock</a>, Duderstadt: Makes products at the end of the production chain for the prosthetics and exoskeleton market. Ottobock regularly performs clinical trials of their products to measure how the actual performance improvement impacts the users of exoskeletons and prosthetics. The outcomes of these trails would feed back in to the design face, thereby closes the circle of this design process.</p></li>
+</ul>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="consortium.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="zeitplan.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/USERNAME/REPO/edit/BRANCH/04-consortium.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["_main.pdf", "_main.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+httr
+jsonlite
+tibble
+tidyr
+purrr
+dplyr

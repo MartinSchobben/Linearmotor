@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="de" xml:lang="de">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 3 Optimierungspotentiale | Case Study “Linearmotor”</title>
+  <meta name="description" content="Chapter 3 Optimierungspotentiale | Case Study “Linearmotor”" />
+  <meta name="generator" content="bookdown 0.29 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 3 Optimierungspotentiale | Case Study “Linearmotor”" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 3 Optimierungspotentiale | Case Study “Linearmotor”" />
+  
+  
+  
+
+<meta name="author" content="Martin Schobben" />
+
+
+<meta name="date" content="2022-09-20" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="markt.html"/>
+<link rel="next" href="consortium.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">A Minimal Book Example</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="aktuellen-stand-der-wissenschaft-und-technik.html"><a href="aktuellen-stand-der-wissenschaft-und-technik.html"><i class="fa fa-check"></i><b>1</b> Aktuellen Stand der Wissenschaft und Technik</a></li>
+<li class="chapter" data-level="2" data-path="markt.html"><a href="markt.html"><i class="fa fa-check"></i><b>2</b> Markt</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="markt.html"><a href="markt.html#general-importance-of-linear-motor-industry"><i class="fa fa-check"></i><b>2.1</b> General importance of linear motor industry</a></li>
+<li class="chapter" data-level="2.2" data-path="markt.html"><a href="markt.html#application-of-linear-motors"><i class="fa fa-check"></i><b>2.2</b> Application of linear motors</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="optimierungspotentiale.html"><a href="optimierungspotentiale.html"><i class="fa fa-check"></i><b>3</b> Optimierungspotentiale</a></li>
+<li class="chapter" data-level="4" data-path="consortium.html"><a href="consortium.html"><i class="fa fa-check"></i><b>4</b> Consortium</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="consortium.html"><a href="consortium.html#material-development"><i class="fa fa-check"></i><b>4.1</b> Material development</a></li>
+<li class="chapter" data-level="4.2" data-path="consortium.html"><a href="consortium.html#design-optimization"><i class="fa fa-check"></i><b>4.2</b> Design optimization</a></li>
+<li class="chapter" data-level="4.3" data-path="consortium.html"><a href="consortium.html#testing-and-production"><i class="fa fa-check"></i><b>4.3</b> Testing and Production</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="zeitplan.html"><a href="zeitplan.html"><i class="fa fa-check"></i><b>5</b> Zeitplan</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Case Study “Linearmotor”</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="optimierungspotentiale" class="section level1 hasAnchor" number="3">
+<h1><span class="header-section-number">Chapter 3</span> Optimierungspotentiale<a href="optimierungspotentiale.html#optimierungspotentiale" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>The weight of ironcore forcers results in a greater cost of energy due to the elevated inertia of the system. By contrast, ironless linear motors have been designed to overcome this higher inertial burden by using lighter weight materials in the forcer. In the latter construction the coils of the forcer are cast in an epoxy resign. This has some obvious benefits in terms of the weight the forcer, resulting in higher acceleration and deceleration of movements. Nonetheless ironless linear motors have some limitations when compared to the ironcore variant, which mainly results in higher force ratings for similar sized ironless variants. In order to achieve similar specifications some limitations of the ironless linear motor have to be overcome. These limitations can be roughly divided into three groups:</p>
+<p><strong>Materials</strong><br />
+The epoxy resin forcers of ironless linear motors have lower thermal conductivity and structural stiffness as the ironcore variant. This can be overcome by:</p>
+<ul>
+<li>developing more thermally conductive epoxy resins. This can potentially be achieved by using nanoparticles inclusions embedded in the epoxy resin <span class="citation">(<a href="#ref-fu2010" role="doc-biblioref">Fu u. a. 2010</a>)</span>.</li>
+<li>improving the structural stiffness of the epoxy resin. Resin with a high structural stiffness are a focal field of research in prosthodontics studies. These advances within prosthodontics could potentially be implemented in ironless forcer design.</li>
+<li>reducing the weight of the coil by using (high temperature) superconducting coils with lower energy consumption <span class="citation">(<a href="#ref-palka2021" role="doc-biblioref">Palka und Woronowicz 2021</a>)</span>. Even more speculative is the implementation of still largely theoretical superconductors such as “magic-angle graphene” <span class="citation">(<a href="#ref-cao2018" role="doc-biblioref">Cao u. a. 2018</a>)</span>.</li>
+</ul>
+<p><strong>Design optimization</strong><br />
+The Y-beam design is an example of a geometric configuration that improved the efficiency of ironless linear motors. Building on this progresses in forcer design one can:</p>
+<ul>
+<li>further improvement motor geometry and other design parameters by state-of-the-art topological and magnetic flux models [e.g., duan2011].</li>
+<li>adopt precision manufacturing processes (such as laser metal cutting) to actually implement design improvements with minimal amounts of variation. Minimization of production errors will increase the efficiency of these systems in real-world applications.</li>
+</ul>
+<p><strong>Adaptive algorithms</strong><br />
+Computational routines for movement tracking and corrective feedback will help overcome magnetic flux interaction and other parasitic forces that negatively influence the machine’s performance <span class="citation">(<a href="#ref-nguyen2016" role="doc-biblioref">Nguyen, Lazar, und Butler 2016</a>)</span>. Such algorithms can benefit from:
+re
+- increased computational power that matches the speed of movement in the mechanical system. This will benefit the overall performance.
+- implementing self-supervised machine algorithms that can iteratively learn the best routine for certain movements within a specific system.</p>
+<p>Improvements in all of these categories can improve the system’s performance without the need of larger and heavier forcers. Reversely, this also creates opportunities to further reduce the size and weight of linear motors. This would be beneficial for the high precision applications, such as, biomedical devices, surgical tools and high-end optics, that require nano- to micro-scale spatial precision with a very consistent velocity control of movement.</p>
+
+</div>
+<h3> Zeitplan<a href="zeitplan.html#zeitplan" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-cao2018" class="csl-entry">
+Cao, Yuan, Valla Fatemi, Ahmet Demir, Shiang Fang, Spencer L. Tomarken, Jason Y. Luo, Javier D. Sanchez-Yamagishi, u. a. 2018. <span>„Correlated Insulator Behaviour at Half-Filling in Magic-Angle Graphene Superlattices“</span>. <em>Nature</em> 556 (7699): 80–84. <a href="https://doi.org/10.1038/nature26154">https://doi.org/10.1038/nature26154</a>.
+</div>
+<div id="ref-fu2010" class="csl-entry">
+Fu, Jifang, Liyi Shi, Dengsong Zhang, Qingdong Zhong, und Yi Chen. 2010. <span>„Effect of Nanoparticles on the Performance of Thermally Conductive Epoxy Adhesives“</span>. <em>Polymer Engineering &amp; Science</em> 50 (9): 1809–19. <a href="https://doi.org/10.1002/pen.21705">https://doi.org/10.1002/pen.21705</a>.
+</div>
+<div id="ref-nguyen2016" class="csl-entry">
+Nguyen, Tuan T., Mircea Lazar, und Hans Butler. 2016. <span>„A <span>Computationally Efficient Commutation Algorithm</span> for <span>Parasitic Forces</span> and <span>Torques Compensation</span> in <span>Ironless Linear Motors</span>“</span>. <em>IFAC-PapersOnLine</em> 49 (21): 267–73. <a href="https://doi.org/10.1016/j.ifacol.2016.10.565">https://doi.org/10.1016/j.ifacol.2016.10.565</a>.
+</div>
+<div id="ref-palka2021" class="csl-entry">
+Palka, Ryszard, und Konrad Woronowicz. 2021. <span>„Linear <span>Induction Motors</span> in <span>Transportation Systems</span>“</span>. <em>Energies</em> 14 (9): 2549. <a href="https://doi.org/10.3390/en14092549">https://doi.org/10.3390/en14092549</a>.
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="markt.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="consortium.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/USERNAME/REPO/edit/BRANCH/03-problem.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["_main.pdf", "_main.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

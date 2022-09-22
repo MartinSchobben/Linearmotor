@@ -1,0 +1,9 @@
+fig:plot
+fig:gantt
+aktuellen-stand-der-wissenschaft-und-technik
+markt
+aktuellen-stand-der-linearmotorindustrie
+anwendungen-von-linearmotoren
+optim
+consortium
+zeitplan

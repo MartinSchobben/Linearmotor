@@ -1,0 +1,41 @@
+# Zeitplan
+
+Das Arbeitspaket "Materialentwicklung" wird mit Beginn des Projekts beginnen und Ergebnisse in Form von Publikationen und schließlich eines Epoxidharzes liefern, das in den anderen beiden Paketen verwendet werden kann. Arbeitspaket "Designoptimierung" beginnt idealerweise, wenn Arbeitspaket 1 ein neues Epoxidharzes liefert, für das die Materialeigenschaften im mathematischen Modelldesign verwendet werden sollen. Arbeitspaket "Test und Produktion" erfordert Materialien aus Arbeitspaket 1 und ein fertiges Gerätedesign als Ergebnis von Arbeitspaket 2. Daher beginnt Arbeitspaket 3 als letzte Phase dieses Forschungsplans.
+
+Folgende "Milestones" wurden formuliert:
+
+M1. Entwicklung eines neuartigen Epoxidharzes mit hervorragenden Wärmeleiteigenschaften.   
+M2. Entwicklung einer neuartigen Topologie, die das Kraftgewicht reduziert und gleichzeitig die strukturelle Steifigkeit beibehält.     
+M3. Verbessertes Prothesen- und/oder Exoskelettdesign, das den Bedürfnissen der Benutzer entspricht.      
+
+```{r gantt, echo=FALSE, message=FALSE, fig.cap="Gantt chart für Case Study \"Linearmotor\"", fig.height=3.5}
+library(ggplot2)
+library(tibble)
+library(lubridate)
+library(tidyr)
+
+# make tabular plan
+tk <- c("Materialentwicklung", "Designoptimierung", "Test und Produktion", "M1", "M2", "M3")
+st <- c(ymd("20230101"), ymd("20230601"), ymd("20241231"))
+gt <- tibble(
+  begin = c(st, st[1] + months(26), st[2] + months(26), st[3] + months(20)),
+  end = c(st[1] + months(30), st[2] + months(30), st[3] + months(24), st[1] + months(30), st[2] + months(30), st[3] + months(24)),
+  bottom = c(1, 2, 3, 1, 2, 3) - .45,
+  top = c(1, 2, 3, 1, 2, 3) + .45,
+  task = rep(factor(tk[1:3], tk[1:3]), 2),
+  label = c(rep("", 3),"M1", "M2", "M3"),
+  x = c(st, st[1] + months(28), st[2] + months(28), st[3] + months(22))
+)
+
+ggplot(gt, aes(x= x, label = label, y = task, ymin = bottom, ymax = top, xmin = begin, xmax = end, fill = "aliceblue")) +
+  geom_rect(color = "grey") +
+  geom_text() +
+  scale_fill_identity() +
+  theme_classic() +
+  theme(
+    axis.title = element_blank(), 
+    axis.ticks.y = element_blank(), 
+    axis.line.y = element_blank(), 
+    panel.grid.major.y = element_line(colour = "grey", linetype = 2)
+  )
+```

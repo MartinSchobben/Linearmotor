@@ -1,0 +1,132 @@
+# Markt
+
+## Aktuellen Stand der Linearmotorindustrie
+
+<!-- ## General importance of linear motor industry -->
+
+Die Elektroindustrie ist eine der führenden Industrien Europas und steht an der Spitze der Innovation. Der Linearmotor gilt als wesentlicher Baustein, um die Automatisierung von Produktionsprozessen im Sinne der „Vierten Industriellen Revolution“ („Industrie 4.0“) [@baskutis2018] weiter zu beschleunigen. Auch wenn die letzte Generation von Linearmotoren rotierende Motoren in Bezug auf Durchsatz, Genauigkeit der Positionierung, mehr Konfigurierbarkeit bei der Gestaltung von Produktionssystemen und Langlebigkeit übertrifft, dominieren rotierende Motoren immer noch Produktionsprozesse. Dies liegt wahrscheinlich an den niedrigen Anfangsinvestitionen im Vergleich zu den teureren linearen Alternativen [@gieras2018]. Diese Kurzsichtigkeit übersieht, dass diese zentralen Vorteile linearer Systeme aufgrund der geringeren Wartungskosten langfristig zu einem geringeren Energieverbrauch und einem geringeren Ressourcenbedarf führen. Daher fördert das Bundesministerium für Wirtschaft und Energie diesen „Leichtbau“, da er ein wesentlicher Treiber für eine ressourcen- und energieeffizientere Gesellschaft ist [@bundesministeriumfurwirtschaftundenergie2021]. Auch die Fertigung von Linearmotoren hat sich als widerstandsfähiger Markt erwiesen, da sie einer der wenigen Zweige der Elektromotorenfertigung ist, die auch nach der EU-Krise 2008 wettbewerbsfähig geblieben sind [@ecsip2016]. Die aktive Unterstützung dieser Technologien und die zunehmende Automatisierung von Produktionsprozessen dürften dafür sorgen, dass der Zukunftsmarkt der Elektromotoren von Linearmotoren dominiert wird [@gieras2018].
+
+<!-- The electrical engineering industry is one of Europe's leading industries and it is at the forefront of innovation. The linear motor is regarded as an essential building block in further accelerating automation of production processes as defined under "Fourth Industrial Revolution" ("Industry 4.0") [@baskutis2018]. Even though the last generation of linear motors outcompete rotating motors when considering throughput, exactness of positioning, more configurable nature in the design of production systems, and durability, rotating motors still dominate production processes. This is likely because of low initial investments relative to the more costly linear alternatives [@gieras2018]. This short-sightedness overlooks that these key benefits of linear systems will in the long run result in less energy consumption and less resource requirement because of the lower maintenance costs. Hence the German ministry of environment (BMWI) stimulates such "Leichtbau" as it is a key driver towards a more resource and energy efficient society [@bundesministeriumfurwirtschaftundenergie2021]. The manufacturing of linear motors has also shown to be a resilient market as it is one of the few branches of electric motor manufacturing that remained competitive in Europe even after the EU crisis of 2008 [@ecsipconsortium]. The active stimulation of these technologies, and increased automation of production processes, likely ensures that the future market of electric motors will be overtaken by linear motors [@gieras2018]  -->
+
+
+<!-- ## Applications of linear motors -->
+
+## Anwendungen von Linearmotoren
+
+Die Anwendung von Linearmotoren konzentrierte sich traditionell auf Anwendungen in Transportsystemen, wie zum Beispiel Magnetschwebebahnen [z. B. "Maglev": @cassat2003; @palka2021], hat aber in den letzten Jahren eine breitere Anwendung in allen Arten von Hochpräzisions Industrien gesehen, wie zum Beispiel die Halbleiterchipindustrie, chirurgische Geräte und Prothesen, die Entsorgung nuklearer Abfälle und die Miniaturisierung von Produktionssystemen [@malaize2009 @razali2013; @raiola2019; @fromme2019]. Im Rahmen von „Industrie 4.0“ sind Wissenschaft und Technik ein primärer Treiber der Produktion und die der damit verbundenen Herstellungsprozesse [@baskutis2018]. Dies gilt insbesondere für anwendbare Technologien wie Linearmotoren, bei denen die Zuweisung von Forschungsgeldern und wissenschaftlichen Ergebnissen die wissenschaftlichen Schwerpunktdisziplinen von Linearmotoren widerspiegelt. Die damit identifizierten Forschungsschwerpunkte rund um Linearmotoren ermöglichen eine erste Einschätzung von Entwicklungstrends und zukünftigen Anwendungen dieser Geräte.
+
+<!-- The application of linear motors was traditionally centred around applications in transportation systems, such as magnetic-levitating trains [e.g. "maglev": @cassat2003; @palka2021], but has seen a more wider application in all sort of precision high precision industries over recent years, such as, the semiconductor chip industry, surgical devices and prosthetics, nuclear waste management, and the miniaturization and of production systems [@malaize2009 @razali2013; @raiola2019; @fromme2019]. Under the umbrella of "Industry 4.0", science and technology are a primary driver of production and its associated manufacturing processes [@baskutis2018]. This is especially the case for readily applicable technologies, such as linear motors, where allocation of research funds and scientific output reflect the focal scientific disciplines that have embraced this technology. Thus identifying focal areas of research concerning linear motors provides an first-order assessment of development trends and future applications of these devices.  -->
+
+
+Um solche Schwerpunkte der Linearmotorforschung zu identifizieren, habe ich aktuelle Forschungsanstrengungen in der Linearmotorentwicklung nach ihren (Teil-)Disziplinen quantifiziert. Dieser Ansatz kann Entwicklungstrends aufdecken und neuartige Anwendungen von Linearmotoren identifizieren. In dieser kleinen Umfrage habe ich den Forschungsergebnissen, wie etwa Veröffentlichungen in wissenschaftlichen Zeitschriften, als Metrik verwendet, um die Forschungsintensität pro (Teil-)Disziplin zu messen. Die OpenAire-Plattform [@openaire2022] ist eine offene wissenschaftliche Kommunikationsinfrastruktur, die aus einem umfassenden offenen Datensatz von Forschungsinformationen besteht (z. B. enthält sie Informationen zu 144 Millionen Publikationen). Eine Übersicht über die Anzahl der Publikationen zum Thema Linearmotoren, geordnet nach ihren (Teil-)Disziplinen, zeigt, dass der Fokus auf Linearmotoren in den letzten 5 Jahren stark zugenommen hat (Abb. \@ref(fig:plot)). Darüber hinaus sehen wir neue aufstrebende Bereiche wie Biomedizintechnik und Neurochirurgie [@alberto2018; @zamanian2019; @fromme2019; @do2019] und High-End-Optiken [Rasterelektronenmikroskope @mo2017].
+
+<!-- In order to identify such focal areas of linear motor research, I quantified current research efforts in linear motor development according to their (sub)disciplines. This approach can unveil trends in development as well as identify novel applications of linear motors. In this small survey I used research output, such as academic journal publications, as a metric to gauge research intensity per (sub)discipline. The OpenAire platform [@openaireconsortium] is an open scholarly communication infrastructure which consists of an comprehensive open dataset of research information (e.g. it contains information about 144 million publications). An overview of the number of publications dealing with linear motors, listed according to their (sub)disciplines, shows that the focus on linear motors has increased drastically over the last 5 years (Fig. \@ref(fig:plot)). In addition, we see new emerging fields appearing, such as, biomedical engineering and neurosurgery [@alberto2018; @zamanian2019; @fromme2019; @do2019] and high-end optics [scanning electron microscopes; @mo2017]. -->
+
+
+```{r GET, echo=FALSE, message=FALSE}
+library(httr)
+# search openaire database
+openaire_api <- function(field) {
+  # url 
+  url <- modify_url("https://api.openaire.eu", path = "/search/publications")
+  # search terms
+  scg <- list(fos = field , page = 1, size = 3000, format = "csv", title = "linear and motor")
+  # get openaire data
+  resp <- GET(url, query = scg)
+  # check format
+  if (http_type(resp) != "text/csv") {
+    stop("API did not return csv", call. = FALSE)
+  }
+  # parse output
+  out <- content(resp)
+  if (nrow(out) == 0) NULL else add_column(out, field = field)
+}
+```
+
+```{r fos, echo=FALSE, message=FALSE}
+library(jsonlite)
+library(tibble)
+library(tidyr)
+# types of research fields represented
+fos_api <- function() {
+  # url
+  url <- modify_url("https://graph.openaire.eu", path = "/develop/athenarc_fos_hierarchy.json")
+  # get types openaire research
+  resp <- GET(url)
+  # check format
+  if (http_type(resp) != "application/json") {
+    stop("API did not return json", call. = FALSE)
+  }
+  # parse output 
+  fromJSON(content(resp, "text"), simplifyVector = FALSE) |> 
+    unlist() |> 
+    enframe() |> 
+    separate(col = name, into = c("main", "sub"), sep = "\\.")
+}
+```
+
+```{r search, cache=TRUE, echo=FALSE, message=FALSE}
+library(parallel)
+library(purrr)
+library(dplyr)
+# get types
+fos <- fos_api()$value|> unique() 
+# get data
+xc <- mclapply(fos, openaire_api, mc.cores = 4) |>  
+  compact() |> 
+  bind_rows()
+
+# last 5 years
+ft <- lubridate::as_date(Sys.time()) - lubridate::years(5) 
+dt <- format(ft, '%d %b, %Y')
+```
+
+```{r plot, echo=FALSE, message=FALSE, fig.cap= paste0("Veröffentlichungen nach (Teil-)Disziplinen kategorisiert und in zwei Gruppen aufgeteilt: Vor ", dt, " und Nach ", dt, ".")}
+# restructure
+library(dplyr)
+
+# remove duplicates
+df <- filter(xc, !duplicated(Title)) |> 
+  filter(
+    stringr::str_detect(
+      Title, 
+      "([L|l]inear [M|m]otor)|([L|l]inear inductive motor)"
+    )
+  ) |> 
+  filter(
+    !stringr::str_detect(
+      Title, 
+      "[L|l]inear [M|m]otor [P|p]rotein"
+    )
+  ) # exclude proteins with similar name
+
+df <- mutate(
+  df, 
+  time = 
+    if_else(`Publication Year` > ft, paste0("Nach ", dt), paste0("Vor ", dt))
+)
+
+# plot
+library(ggplot2)
+library(forcats)
+ggplot(
+  df, 
+  aes(x = fct_infreq(fct_lump(field, n = 12, other_level = "other")))
+) + 
+  geom_bar() + 
+  facet_grid(
+    cols = vars(fct_relevel(time, paste0("Vor ", dt), paste0("Nach ", dt)))
+  ) + 
+  theme_bw()+ 
+  theme(
+    axis.text.x = element_text(angle = 45,hjust = 1), 
+    plot.margin = margin(1,1,1,2, "cm")
+  ) +
+  labs(x = "", y = "zähl", title = "Veröffentlichungen (openaire.eu)") 
+```
+
+
+Anwendungen in Medizin und Naturwissenschaften legen nahe, dass zukünftige Entwicklungen von Linearmotoren eine weitere Optimierung der Präzision (im Mikro- bis Nanometerbereich) sowie eine weitere Reduzierung von Größe und Gewicht dieser Geräte umfassen werden. Eine genauere Untersuchung der von der OpenAire-Plattform gewonnenen Daten (Abb. \@ref(fig:plot)) zeigt, dass weitere Verbesserungen durch die Aufnahme von Störeffekten wie Reibung, Drehmomenten und anderen parasitären Kräften erzielt werden können. Diese aktive Forschungsdisziplin der Linearmotor-Präzisionsoptimierung lässt sich grob in drei Ansätze unterteilen. Das erste Lösungspaket umfasst die Untersuchung neuer Rohstoffe, wie zum Beispiel Hybridmaterialien für Eisenkern-Linearmotoren [@liu2021] und Hochtemperatur-Supraleitermagnete für einen energieeffizienteren Stromverbrauch [@zhang2016; @palka2021]. Das Erfordernis von Seltenerdelementen in diesen Lösungen schränkt die vollständige Implementierung angesichts der Knappheit dieser Ressourcen ein [@deboer2013]. Motoren in molekularer Größe, die aus Kohlenstoffnanoröhren bestehen, die durch thermische Gradienten angetrieben werden, und Supraleiter auf Graphenbasis könnten zukünftige Wege zur Größenreduzierung und Energieeffizienz sein, aber diese Materialien sind noch weitgehend experimentell [@zambrano2009; @cao2018]. Eine zweite Reihe von Lösungen konzentriert sich auf die Verbesserung der Designparameter des Geräts [@kuang2017; @kramer2021], während ein dritter Ansatz darauf abzielt, Algorithmen zu verbessern, die Linearmotoren führen, wodurch die Bahnverfolgung verbessert und die Auswirkungen anomaler Kräfte auf die Präzision verringert werden [@nguyen2016; @mo2017; @yunbo2018; @chen2020; @yao2021].
+
+<!-- These applications in medical and natural sciences suggest that future developments of linear motors will encompasses further optimization of precision (on the scale of micro- to nano-meters) as well as a further reduction of size and weight of these devices. A more in-depth investigating of the data acquired from the OpenAire platform (Fig. \@ref(fig:plot)) reveals that further improvements can be achieved by accommodating disturbing effects, such as, friction, torques, and other parasitic forces. This active research discipline of linear motor precision optimization can roughly be divided into three approaches. The first set of solutions encompasses investigation of new raw material, such as hybrid materials for ironcore linear motors [@Liu2021], and high-temperature superconducting magnets for more energy efficient electricity consumption [@zhang2016; @palka2021]. The requirement of rare earth elements in these solutions puts some constrains on full scale implementation considering the scarcity of these resources [@deboer2013]. Molecular sized motors composed of carbon nanotubes driven by thermal gradients and graphene based superconductors might be future pathways for size reduction and energy efficiency, but these materials are still largely experimental [@zambrano2009; @cao2018]. A second set of solutions focuses on improving the design parameters of the device [@kuang2017; @kramer2021], whereas a third approach seeks to improve algorithms that guide linear motors, thereby improving trajectory tracking and diminishing the impact of anomalous forces on the precision [@nguyen2016; @mo2017; @yunbo2018; @chen2020; @yao2021].  -->
+
